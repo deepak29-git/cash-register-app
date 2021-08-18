@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+
+    <h1 class="center pb pt">Cash Register App</h1>
+    <p class="center">Enter the bill amount and cash given by the customer and know minimum number of notes to return.</p>
+    <h2 class="center ptb">Bill amount</h2>
+    <input id="bill-amount" type="number">
+    <div class="center m-top">
+      <button id="next-button">Next</button>
+    </div>
+    <p id="error-msg-next"class="center m-top"></p>
+    <h2 id="heading-2" class="center ptb">Cash given</h2>
+    <input id="cash-given" type="number">
+    <div class="center m-top">
+      <button id="check-button">Check</button>
+    </div>
+    <p id="error-msg"class="center m-top"></p>
+    <h2 id="return-change"class="center ptb">Return Change:</h2>
+    <div id="hide-show-table">
+      <table>
+        <tr>
+          <th>No.of Notes</th>
+          <td class="no-of-note"></td>
+          <td class="no-of-note"></td>
+          <td class="no-of-note"></td>
+          <td class="no-of-note"></td>
+          <td class="no-of-note"></td>
+          <td class="no-of-note"></td>
+          <td class="no-of-note"></td>
+        </tr>
+        <tr>
+          <th>Notes</th>
+          <td>2000</td>
+          <td>500</td>
+          <td>100</td>
+          <td>20</td>
+          <td>10</td>
+          <td>5</td>
+          <td>1</td>
+        </tr>
+      </table>
+
+    </div>
+  </div>
+  <footer>
+    <div class="footer-heading mt">
+        <p class="center inline">© | 2021 | Deepak Goyal</p>
+        <ul class="non-bullet inline ">
+            <li class="icon-color"><a href="https://github.com/deepak29-git" target="_blank"><img
+                        src="https://img.icons8.com/ios-glyphs/480/000000/github.png" width="60" height="60"
+                        alt="github"></a></li>
+            <li class="icon-color"><a href="https://twitter.com/deepak887180" target="_blank"><img
+                        src="https://img.icons8.com/ios-glyphs/480/000000/twitter-squared.png" width="60"
+                        height="60" alt="twitter"></a></li>
+            <li class="icon-color"><a
+                    href="https://www.linkedin.com/in/deepak-goyal-584157179?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B4P8c5Iy4QtG2TTuls12D4w%3D%3D"
+                    target="_blank"><img src="https://img.icons8.com/ios-glyphs/480/000000/linkedin.png" width="60"
+                        height="60" alt="linkedin"></a></li>
+            <li class="icon-color"><a href="https://deepak-goyal-portfolio.netlify.app/" target="_blank"><img
+                        src="https://img.icons8.com/ios-glyphs/480/000000/portfolio.png" width="60" height="60"
+                        alt="portfolio"></a></li>
+        </ul>
+    </div>
+</footer>
+</body>
+<script src="/app.js"></script>
+
+</html>
