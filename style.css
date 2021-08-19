@@ -19,6 +19,7 @@ table, td, th {
 table{
     border-collapse: collapse;
     margin: auto; 
+    
 }
 .center{
     text-align: center;
